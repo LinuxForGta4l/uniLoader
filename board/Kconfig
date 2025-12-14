@@ -158,6 +158,13 @@ menu "Device Support"
 		help
 		  Say Y if you want to include arm32 support for Samsung Galaxy J5 2015
 
+	config SAMSUNG_GTA4L
+		bool "Support for Samsung Galaxy Tab A7 2020"
+		default n
+		depends on SM6115
+		help
+		  Say Y if you want to include support for Samsung Galaxy Tab A7 2020
+
 	config SAMSUNG_GTA4XL
 		bool "Support for Samsung Galaxy Tab S6 Lite"
 		default n

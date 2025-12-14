@@ -151,6 +151,12 @@ config QUALCOMM
 		help
 		  Say Y if your device uses this Qualcomm SoC
 
+	config SM6115
+		bool "Support for QUALCOMM SM6115"
+		select QUALCOMM
+		help
+		  Say Y if your device uses this Qualcomm SoC
+
 	config SM8450
 		bool "Support for QUALCOMM SM8450"
 		select QUALCOMM
